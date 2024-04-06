@@ -1,0 +1,45 @@
+.mp-goods {
+	background: url('../../../images/GoodsBG.jpg')  -1px no-repeat;
+	background-size: cover;
+	&__container {
+		padding: 50px 0 60px 0;
+		max-width: 760px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	&__items {
+		display: flex;
+		margin: 40px 0px 60px 0px;
+	}
+}
+
+.goods-items {
+	justify-content: space-between;
+	&__item {
+		box-sizing: border-box;
+		height: 240px;
+		width: 220px;
+		background: rgba(255, 255, 255, 0.65);
+		padding: 15px;
+		font-size: 14px;
+	}
+	&__image {
+		display: block;
+		width: 150px;
+		height: 130px;
+		margin: 0 auto;
+	}
+	.solimo {
+		background: url('../../../images/Solimo.png') no-repeat;
+	}
+	.presto {
+		background: url('../../../images/Presto.png') no-repeat;
+	}
+	.aromistico {
+		background: url('../../../images/Aromistico.png') no-repeat;
+	}
+	&__price {
+		text-align: right;
+		font-weight: bold;
+	}
+}

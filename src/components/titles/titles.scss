@@ -1,0 +1,20 @@
+.title {
+	font-size: 40px;
+	margin: 0px 0px 20px 0px;
+	&_white {
+		color: #fff;
+	}
+	&_dark {
+		color: #000;
+	}
+}
+
+.subtitle {
+	font-size: 24px;
+	&_white {
+		color: #fff;
+	}
+	&_dark {
+		color: #000;
+	}
+}

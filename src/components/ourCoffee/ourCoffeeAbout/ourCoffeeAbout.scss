@@ -1,0 +1,29 @@
+.oc-about {
+	padding: 50px 0 60px 0;
+	max-width: 760px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 60px;
+	}
+	&__image {
+		flex: 1;
+		background: url('../../../images/OurCoffeeAboutImg.png') no-repeat;
+		width: 272px;
+		height: 355px;
+		margin-right: 20px;
+	}
+	&__text {
+		flex: 1;
+	}
+	&__divider {
+		margin: 0px auto;
+		background: url('../../../images/divider.png') no-repeat;
+		width: 240px;
+		height: 2px;
+	}
+}

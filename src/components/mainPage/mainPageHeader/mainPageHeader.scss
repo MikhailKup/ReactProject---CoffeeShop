@@ -1,0 +1,22 @@
+.mainpage__header {
+	padding: 40px 0 0 0;
+	height: 640px;
+	background: url('../../../images/MainBG.jpg')  -1px no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.container {
+	max-width: 780px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mp-header {
+	&__btn {
+		margin-top: 30px;
+		font-size: 14px;
+		padding: 10px 50px;
+		border: 2px solid #fff;
+		border-radius: 10px;
+	}
+}

@@ -1,0 +1,12 @@
+.beanDivider {
+	margin: 0px auto 40px auto;
+	display: block;
+	height: 30px;
+	width: 205px;
+	&_white {
+		background: url('../../icons/Beans logo.png') no-repeat;
+	}
+	&_dark {
+		background: url('../../icons/Beans logo_dark.png') no-repeat;
+	}
+}

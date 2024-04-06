@@ -1,0 +1,41 @@
+.oc-filter {
+	padding: 50px 0 60px 0;
+	max-width: 760px;
+	margin: 0 auto;
+	font-size: 14px;
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 50px;
+		p {
+			margin-right: 30px;
+		}
+	}
+	&__input {
+		display: flex;
+		align-items: center;
+		input {
+			width: 200px;
+			height: 30px;
+			text-align: center;
+			border: none;
+			box-shadow: 8px 5px 20px 1px rgba(4, 4, 4, 0.3);
+		}
+	}
+	&__buttons {
+		display: flex;
+		align-items: center;
+		button {
+			text-align: center;
+			width: 75px;
+			height: 30px;
+			box-shadow: 4px 5px 15px 1px rgba(4, 4, 4, 0.3);
+			margin-right: 5px;
+		}
+	}
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}

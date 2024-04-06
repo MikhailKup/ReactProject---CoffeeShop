@@ -1,0 +1,21 @@
+.headerNav {
+	margin: 0px 0px 80px 80px;
+	&__row {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+		font-size: 12px;
+		&:first-child::before {
+			content: '';
+			background: url('../../icons/coffee-beans.png') no-repeat;
+			height: 35px;
+			width: 35px;
+			position: relative;
+			top: -12px;
+		}
+		a {
+			color: #fff;
+			margin-right: 50px;
+		}
+	}
+}
