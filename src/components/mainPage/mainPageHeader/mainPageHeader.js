@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './mainPageHeader.scss';
-import HeaderNav from '../../headerNav/headerNav';
+import Navigation from '../../navigation/navigation';
 import { BeansDividerWhite } from '../../beansDividers/beansDividers';
 import { Title, Subtitle } from '../../titles/titles';
 
@@ -12,7 +12,9 @@ class MainPageHeader extends Component {
 	render() {
 		return (
 			<div className='mainpage__header mp-header'>
-				<HeaderNav/>
+				<div className="mp-header__nav">
+					<Navigation color={'white'}/>
+				</div>
 				<div className="container">
 					<Title 
 					text={'Everything You Love About Coffee'}

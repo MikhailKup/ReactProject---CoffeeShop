@@ -5,20 +5,5 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 12px;
-		&:first-child::before {
-			content: '';
-			background: url('../../icons/coffee-beans_dark.png') no-repeat;
-			height: 35px;
-			width: 35px;
-			position: relative;
-			top: -12px;
-		}
-		a {
-			color: #000;
-			margin-right: 50px;
-			&:last-child {
-				margin-right: 0;
-			}
-		}
 	}
 }

@@ -12,6 +12,9 @@
 }
 
 .mp-header {
+	&__nav {
+		margin: 0px 0px 80px 80px;
+	}
 	&__btn {
 		margin-top: 30px;
 		font-size: 14px;

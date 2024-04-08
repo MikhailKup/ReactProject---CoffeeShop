@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './ourCoffeeHeader.scss';
-import HeaderNav from '../../headerNav/headerNav';
+import Navigation from '../../navigation/navigation'
 import { Title } from '../../titles/titles';
 
 class OurCofeeHeader extends Component {
@@ -11,7 +11,9 @@ class OurCofeeHeader extends Component {
 	render() {
 		return (
 			<div className='ourCoffee__header oc-header'>
-				<HeaderNav/>
+				<div className="oc-header__nav">
+					<Navigation color={'white'}/>
+				</div>
 				<div className="container">
 					<Title 
 						text={'Our Coffee'}

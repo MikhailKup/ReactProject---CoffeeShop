@@ -1,5 +1,6 @@
 import { Component } from 'react';
-import { BeansDividerDark } from '../beansDividers/beansDividers.js'
+import { BeansDividerDark } from '../beansDividers/beansDividers.js';
+import Navigation from '../navigation/navigation.js';
 
 import './footer.scss';
 
@@ -12,9 +13,7 @@ class Footer extends Component {
 		return (
 			<div className='footer'>
 				<div className="footer__nav">
-					<a href="#" className="footer__link" >Coffee House</a>
-					<a href="#" className="footer__link" id='coffee'>Our coffee</a>
-					<a href="#" className="footer__link" id='pleasure'>For your pleasure</a>
+					<Navigation color={'dark'}/>
 				</div>
 				<BeansDividerDark/>
 			</div>

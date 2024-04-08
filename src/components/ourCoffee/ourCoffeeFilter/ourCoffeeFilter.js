@@ -1,7 +1,5 @@
 import { Component } from 'react';
 import './ourCoffeeFilter.scss';
-import FilterButtons from './filterButtons';
-import ProductItems from '../../productItems/productItems';
 
 class OurCofeeFilter extends Component {
 	constructor(props) {
@@ -10,21 +8,20 @@ class OurCofeeFilter extends Component {
 			term: ''
 		}
 	}
+	onUpdateSearch = (e) => {
+		const term = e.target.value;
+		this.setState({term});
+		this.props.onUpdateSearch(term);
+	};
 	render() {
 		return (
-			<div className='ourCoffee__filter oc-filter'>
-				<div className="oc-filter__row">
-					<div className="oc-filter__input">
-						<p>Looking for</p>
-						<input type="text" 
-							placeholder="start typing here..."
-							value={this.state.term}
-							onChange={this.onUpdateSearch}
-						/>
-					</div>
-					<FilterButtons/>
-				</div>
-				<ProductItems/>
+			<div className="oc-filter__input">
+				<p>Looking for</p>
+				<input type="text" 
+					placeholder="start typing here..."
+					value={this.state.term}
+					onChange={this.onUpdateSearch}
+				/>
 			</div>
 		)
 	}

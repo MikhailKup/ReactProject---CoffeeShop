@@ -1,5 +1,6 @@
 const FilterButtons = (props) => {
 	const buttonsData = [
+		{name: 'All'},
 		{name: 'Brazil'},
 		{name: 'Kenya'},
 		{name: 'Columbia'},
